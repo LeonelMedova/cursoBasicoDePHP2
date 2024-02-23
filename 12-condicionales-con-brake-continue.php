@@ -24,7 +24,7 @@ foreach ($tienda_de_cafe as $cafe => $precio) {
         continue;
     }
 
-    echo "El café $cafe es muy rico! \n";
+    echo "El café $cafe es muy rico! y tiene un precio de $$precio\n";
 }
 
 echo "\n";
